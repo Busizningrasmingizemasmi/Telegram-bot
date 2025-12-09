@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Bot tokenni Vercel environment variable'dan olamiz
-const TOKEN = process.env.TELEGRAM_BOT_TOKEN = <8423295883:AAEa8JymZ3hdBBFwNDG4DVYjysHsX30lLzc>;
+const TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const TELEGRAM_API = `https://api.telegram.org/bot${TOKEN}`;
 
 // Webhook endpoint
